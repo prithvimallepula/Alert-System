@@ -1,0 +1,27 @@
+<html>
+<body>
+<h3>To receive NJIT based text alerts, enter your cell phone number, select your carrier, click subscribe and then submit. You can cancel 
+this service by unsubscribing anytime by selecting "Unsubscribe".</h3>
+<table>
+<tr><form action="activate.php" method="post"><td bgcolor="#C0C0C0">Area Code:</td><td><input type="text" name="num1" /><td>
+<tr><td bgcolor="#C0C0C0">First 3 Digits:</td><td><input type="text" name="num2" /><td>
+<tr><td bgcolor="#C0C0C0">Last 4 Digits:</td><td><input type="text" name="num3" /><td>
+<tr><td bgcolor="#C0C0C0">Cell Phone Provider :</td><td><select name="name">
+<option value="Verizon">Verizon</option>
+<option value="AT&T">AT&T</option>
+<option value="Sprint">Sprint</option>
+<option value="Other">Other</option>
+</select><td>
+<tr><td bgcolor="#C0C0C0">Subscription Activation Status</td><td><input type="radio" name="status" value="subscribe"> subscribe
+<input type="radio" name="status" value="unsubscribe"> unsubscribe</td></tr>
+<td>
+<input type="submit"/>
+<input type="reset" />
+</td>
+</form>
+</tr>
+</table>
+</br></br>
+<a href="subscribers.php" onclick="function()" id="nav">Show subscribers
+</body>
+</html>
